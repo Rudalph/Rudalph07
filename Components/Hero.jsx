@@ -52,10 +52,10 @@ export default function Hero() {
               I AM <span ref={typingRef} />
           </p>
           <div className='flex justify-items-start flex-wrap mt-8 lg:space-x-10 space-x-5 text-[#A8B3CF] text-2xl lg:text-4xl'>
-          <FaGithub />
-          <FaLinkedin />
-          <FaInstagram />
-          <IoMdMail />
+          <a href="https://github.com/Rudalph"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/rudalphgonsalves/"><FaLinkedin /></a>
+          <a href="https://www.instagram.com/rudalphgonsalves/"><FaInstagram /></a>
+          <a href="mailto:gonsalvesrudalph@gmail.com"><IoMdMail /></a>
           </div>
         </div>
         <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6 flex justify-center items-center align-middle p-5">
