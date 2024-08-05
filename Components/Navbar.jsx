@@ -37,7 +37,7 @@ export default function Navbar() {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="text-sm font-semibold text-[#A8B3CF]"
+                  className="text-sm font-bold text-[#A8B3CF]"
                 >
                   {item.name}
                 </a>

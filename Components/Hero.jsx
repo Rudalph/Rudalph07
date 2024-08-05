@@ -45,7 +45,7 @@ export default function Hero() {
             </div>
             <p className="text-sm font-bold p-1"><a href="https://creative-techscapes.vercel.app/">&rarr;</a></p>
           </div>
-          <h1 className="mt-8 text-2xl font-bold tracking-tight text-[#FC538D] md:text-4xl lg:text-6xl">
+          <h1 className="mt-8 text-2xl font-bold tracking-tight text-[#FC538D] md:text-4xl lg:text-5xl">
             RUDALPH  GONSALVES
           </h1>
           <p className="mt-8 text-sm text-[#7147ED] font-bold lg:text-2xl">
