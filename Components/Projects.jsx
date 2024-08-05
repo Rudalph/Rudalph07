@@ -11,7 +11,7 @@ const Projects = () => {
                 <div className="text-sm lg:text-2xl text-white font-bold ">PROJECTS</div>
                 <div className="flex-grow border-t border-white mr-4 ml-4"></div>
             </div>
-            <div className='flex justify-center align-middle items-center mt-10 mb-10 flex-wrap'>
+            <div className='flex justify-center align-middle items-center mt-10 flex-wrap'>
                 <div className="card w-60 lg:w-80 shadow-xl border bg-[#1C1F26] border-[#10847E] m-5">
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-[#10847E]">LIFE BALANCE 360</h2>
@@ -69,6 +69,48 @@ const Projects = () => {
                     <div className='flex justify-evenly align-middle items-center p-3 text-[#A8B3CF] text-xl'>
                         <a href="https://github.com/CreativeTecscapes/Portfolio"><FaGithub /></a>
                         <a href="https://creative-techscapes.vercel.app/"><FaLink /></a>
+                        <MdComment />
+                    </div>
+                </div>
+            </div>
+            <div className='flex justify-center align-middle items-center mb-10 flex-wrap'>
+                <div className="card w-60 lg:w-80 shadow-xl border bg-[#1C1F26] border-[#FC538D] m-5">
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title text-[#FC538D]">JIVSANKLP</h2>
+                        <p className='text-center text-[#A8B3CF]'>Conservation of endangered species using AI/ML</p>
+                    </div>
+                    <figure className="px-10 pb-5">
+                        <Image
+                            src="/jivsankalp.jpg"
+                            alt="Shoes"
+                            className="rounded-xl"
+                            height={600}
+                            width={700} 
+                        />
+                    </figure>
+                    <div className='flex justify-evenly align-middle items-center p-3 text-[#A8B3CF] text-xl'>
+                        <a href="https://github.com/RehanAlmeida/Jivsankalp"><FaGithub /></a>
+                        <a href="https://github.com/RehanAlmeida/Jivsankalp"><FaLink /></a>
+                        <MdComment />
+                    </div>
+                </div>
+                <div className="card w-60 lg:w-80 shadow-xl border bg-[#1C1F26] border-[#10847E] m-5">
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title text-[#10847E]">MEDISENSE</h2>
+                        <p className='text-center text-[#A8B3CF]'>AI powered prescription analyzer and report simplifier</p>
+                    </div>
+                    <figure className="px-10 pb-5">
+                        <Image
+                            src="/Medisense.jpg"
+                            alt="Shoes"
+                            className="rounded-xl"
+                            height={600}
+                            width={700} 
+                        />
+                    </figure>
+                    <div className='flex justify-evenly align-middle items-center p-3 text-[#A8B3CF] text-xl'>
+                        <a href="https://github.com/Rudalph/AI-ML-Parul-University-Hackathon"><FaGithub /></a>
+                        <a href="https://github.com/Rudalph/AI-ML-Parul-University-Hackathon"><FaLink /></a>
                         <MdComment />
                     </div>
                 </div>
