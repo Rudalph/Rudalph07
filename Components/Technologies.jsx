@@ -66,6 +66,18 @@ const Technologies = () => {
                 <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-gemini-icon.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
             </div>
         </div>
+
+        <div className='flex justify-center align-middle items-center flex-wrap'>
+            <div className='flex justify-evenly w-full '>
+                <img src="https://mscit.mkcl.org/user/pages/03.mscit-for-school-students/03.course-syllabus/MS-CIT-SS-C-Programming.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
+                <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
+                <img src="https://miro.medium.com/v2/resize:fit:1000/0*cOqooDOsnb8jDm2G.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
+            </div>
+
+            <div className='flex justify-evenly w-full'>
+                <img src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
+            </div>
+        </div>
         
     </div>
   )
