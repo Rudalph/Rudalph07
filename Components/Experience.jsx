@@ -22,8 +22,8 @@ const Experience = () => {
     },
     {
       imageUrl: '/vpn-certificate.jpg',
-      title: 'VPN Digital Services Software Development Internship Feb 2024 to July 2024',
-      description: 'Software Engineering Internship at VPN',
+      title: 'Software Engineering Internship at VPN',
+      description: 'VPN Digital Services Software Development Internship Feb 2024 to July 2024',
       tags: [<a href="https://www.rudrastra.in/"><FaGithub /></a>, <a href="https://www.rudrastra.in/"><FaLink /></a>, <MdComment />],
     },
   ];
