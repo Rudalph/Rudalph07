@@ -8,7 +8,7 @@ const All_Certifications = () => {
                 <div className="text-sm lg:text-2xl text-white font-bold ">CERTIFICATES</div>
                 <div className="flex-grow border-t border-white mr-4 ml-4"></div>
             </div>
-            <div className='mt-10 px-5 lg:p-5 lg:px-10 flex justify-center align-middle items-center'>
+            <div className='mt-5 px-5 lg:p-5 lg:px-10 flex justify-center align-middle items-center'>
                 <div className="carousel w-full ">
                     <div id="slide1" className="carousel-item relative w-full flex justify-center align-middle items-center">
                         <Image

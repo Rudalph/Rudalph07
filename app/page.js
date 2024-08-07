@@ -4,6 +4,7 @@ import Projects from "@/Components/Projects";
 import Technologies from "@/Components/Technologies";
 import Experience from "@/Components/Experience";
 import All_Certifications from "@/Components/All_Certifications";
+import Bento from "@/Components/Bento";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Technologies />
       <Experience />
       <All_Certifications />
+      <Bento />
     </div>
   );
 }
