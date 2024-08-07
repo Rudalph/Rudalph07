@@ -6,6 +6,7 @@ import Experience from "@/Components/Experience";
 import All_Certifications from "@/Components/All_Certifications";
 import Bento from "@/Components/Bento";
 import Contact from "@/Components/Contact";
+import Footer from "@/Components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <All_Certifications />
       <Bento />
       <Contact />
+      <Footer />
     </div>
   );
 }

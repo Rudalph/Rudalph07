@@ -36,10 +36,10 @@ export default function Hero() {
 
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full lg:mt-10">
       <div className="mx-auto max-w-8xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
         <div className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6">
-          <div className="mt-8 flex max-w-max items-center space-x-2 rounded-full bg-[#A8B3CF] p-1">
+          <div className="lg:mt-8 flex max-w-max items-center space-x-2 rounded-full bg-[#A8B3CF] p-1">
             <div className="rounded-full bg-white p-1 px-2">
               <p className="text-sm font-medium">CREATIVE TECHSCAPES</p>
             </div>

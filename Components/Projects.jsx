@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Projects = () => {
     return (
-        <div className='mt-10 lg:mt-28'>
+        <div className='mt-10 lg:mt-16'>
             <div className="flex items-center lg:px-14 px-5">
                 <div className="text-sm lg:text-2xl text-white font-bold ">PROJECTS</div>
                 <div className="flex-grow border-t border-white mr-4 ml-4"></div>
