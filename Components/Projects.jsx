@@ -109,8 +109,8 @@ const Projects = () => {
                         />
                     </figure>
                     <div className='flex justify-evenly align-middle items-center p-3 text-[#A8B3CF] text-xl'>
-                        <a href="https://github.com/Rudalph/AI-ML-Parul-University-Hackathon"><FaGithub /></a>
-                        <a href="https://github.com/Rudalph/AI-ML-Parul-University-Hackathon"><FaLink /></a>
+                        <a href="https://github.com/Rudalph/MediSense"><FaGithub /></a>
+                        <a href="https://medi-sense.vercel.app/"><FaLink /></a>
                         <MdComment />
                     </div>
                 </div>
