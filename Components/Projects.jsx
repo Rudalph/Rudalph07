@@ -114,6 +114,26 @@ const Projects = () => {
                         <MdComment />
                     </div>
                 </div>
+                <div className="card w-60 lg:w-80 shadow-xl border bg-[#1C1F26] border-[#5F61E6] m-5">
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title text-[#5F61E6]">SECURE PAY</h2>
+                        <p className='text-center text-[#A8B3CF]'>Blockchain-based application for secure cross border payment</p>
+                    </div>
+                    <figure className="px-10 pb-5">
+                        <Image
+                            src="/Securepay-Image.jpg"
+                            alt="Shoes"
+                            className="rounded-xl"
+                            height={600}
+                            width={700} 
+                        />
+                    </figure>
+                    <div className='flex justify-evenly align-middle items-center p-3 text-[#A8B3CF] text-xl'>
+                        <a href="https://github.com/Rudalph/Rudalph07"><FaGithub /></a>
+                        <a href="https://secure-payments.vercel.app/"><FaLink /></a>
+                        <MdComment />
+                    </div>
+                </div>
             </div>
         </div>
 

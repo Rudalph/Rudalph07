@@ -77,6 +77,17 @@ const Bento = () => {
                         />
                     </div>
 
+                    <div
+                        className="col-span-5 row-span-5 rounded-lg shadow-md flex items-center justify-center"
+                    >
+                        <Image
+                          className='rounded-xl'
+                          src="/achivements-img-8.jpg"
+                          height={300}
+                          width={500}
+                        />
+                    </div>
+
                 </div>
             </div>
         </div>
