@@ -94,14 +94,14 @@ const Projects = () => {
                         <MdComment />
                     </div>
                 </div>
-                <div className="card w-60 lg:w-80 shadow-xl border bg-[#1C1F26] border-[#10847E] m-5">
+                <div className="card w-60 lg:w-80 shadow-xl border bg-[#1C1F26] border-[white] m-5">
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title text-[#10847E]">MEDISENSE</h2>
+                        <h2 className="card-title text-[white]">MEDISENSE</h2>
                         <p className='text-center text-[#A8B3CF]'>AI powered prescription analyzer and report simplifier</p>
                     </div>
                     <figure className="px-10 pb-5">
                         <Image
-                            src="/Medisense.jpg"
+                            src="/Medisense-Image.jpg"
                             alt="Shoes"
                             className="rounded-xl"
                             height={600}
