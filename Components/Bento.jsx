@@ -88,6 +88,28 @@ const Bento = () => {
                         />
                     </div>
 
+                    <div
+                        className="col-span-5 row-span-5 rounded-lg shadow-md flex items-center justify-center"
+                    >
+                        <Image
+                          className='rounded-xl'
+                          src="/achivements-img-10.jpg"
+                          height={300}
+                          width={500}
+                        />
+                    </div>
+
+                    <div
+                        className="col-span-5 row-span-5 rounded-lg shadow-md flex items-center justify-center mt-10 lg:mt-20"
+                    >
+                        <Image
+                          className='rounded-xl'
+                          src="/achivements-img-9.jpg"
+                          height={300}
+                          width={500}
+                        />
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -11,6 +11,7 @@ const Projects = () => {
                 <div className="text-sm lg:text-2xl text-white font-bold ">PROJECTS</div>
                 <div className="flex-grow border-t border-white mr-4 ml-4"></div>
             </div>
+
             <div className='flex justify-center align-middle items-center mt-10 flex-wrap'>
                 <div className="card w-60 lg:w-80 shadow-xl border bg-[#1C1F26] border-[#10847E] m-5">
                     <div className="card-body items-center text-center">
@@ -73,6 +74,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+
             <div className='flex justify-center align-middle items-center mb-10 flex-wrap'>
                 <div className="card w-60 lg:w-80 shadow-xl border bg-[#1C1F26] border-[#FC538D] m-5">
                     <div className="card-body items-center text-center">
@@ -135,6 +137,30 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+
+            <div className='flex justify-center align-middle items-center mb-10 flex-wrap'>
+                <div className="card w-60 lg:w-80 shadow-xl border bg-[#1C1F26] border-[#8EC2DA] m-5">
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title text-[#8EC2DA]">RAG - CRCE</h2>
+                        <p className='text-center text-[#A8B3CF]'>Retrieval-Augmented Generation for Fr. CRCE</p>
+                    </div>
+                    <figure className="px-10 pb-5">
+                        <Image
+                            src="/crce-rag-image.jpg"
+                            alt="Shoes"
+                            className="rounded-xl"
+                            height={600}
+                            width={700} 
+                        />
+                    </figure>
+                    <div className='flex justify-evenly align-middle items-center p-3 text-[#A8B3CF] text-xl'>
+                        <a href="https://github.com/Rudalph/frcrce-rag"><FaGithub /></a>
+                        <a href="https://frcrce-rag.vercel.app/"><FaLink /></a>
+                        <MdComment />
+                    </div>
+                </div> 
+            </div>
+
         </div>
 
     )
