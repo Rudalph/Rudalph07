@@ -1,86 +1,135 @@
-import React from 'react'
+// import React from 'react';
 
-const Technologies = () => {
-  return (
-    <div className='mt-10'>
-        <div className="flex items-center lg:px-14 px-5">
-                <div className="text-sm lg:text-2xl text-white font-bold ">TECHNOLOGIES</div>
-                <div className="flex-grow border-t border-white mr-4 ml-4"></div>
-        </div>
+// const techList = [
+//   // Row 1 (JS/web)
+//   { name: "React.js", url: "https://dabeng.github.io/img/reactjs.png" },
+//   { name: "Next.js", url: "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png" },
+//   { name: "Tailwind CSS", url: "https://codekitapp.com/images/help/free-tailwind-icon@2x.png" },
 
-        <div className='flex justify-center align-middle items-center mt-10 flex-wrap'>
-            {/* <div className='flex justify-evenly w-full'>
-                <img src="https://cdn.iconscout.com/icon/free/png-256/free-html-5-1-1175208.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://static-00.iconduck.com/assets.00/file-type-css-icon-902x1024-dqy5inwy.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://media.licdn.com/dms/image/D4D12AQEL9aeB8WqRaw/article-cover_image-shrink_600_2000/0/1685204779306?e=2147483647&v=beta&t=jr7Um-vZDvcgCCzx0a48zCEr3RtUyRVqelGOzrpL4bs" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-            </div> */}
+//   // Row 2 (Backend)
+//   { name: "Node.js", url: "https://www.svgrepo.com/show/354119/nodejs-icon.svg" },
+//   { name: "Flask", url: "https://external-preview.redd.it/n9EWl-GXdiaYYVOhB3Dy1hT69l0v8KfPnDVeqDQ6ANE.jpg?auto=webp&s=f0a553bd5925bada0c42a4af98c09e9e4acbc22b" },
+//   { name: "Express.js", url: "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png" },
 
-            <div className='flex justify-evenly w-full'>
-                <img src="https://dabeng.github.io/img/reactjs.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://codekitapp.com/images/help/free-tailwind-icon@2x.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-            </div>
+//   // Row 3 (DB/Cloud)
+//   { name: "MongoDB", url: "https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" },
+//   { name: "Firebase", url: "https://miro.medium.com/v2/resize:fit:300/1*R4c8lHBHuH5qyqOtZb3h-w.png" },
+//   { name: "PostgreSQL", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1163px-Postgresql_elephant.svg.png" },
+
+//   // Row 4 (RAG/AI/ML tools)
+//   { name: "ChromaDB", url: "https://miro.medium.com/v2/resize:fit:793/1*2crwn9fsu58hVQua-dEa3w.png" },
+//   { name: "Pinecone", url: "https://cdn.prod.website-files.com/63daf1fa1abcbc5e7969d7c9/641e0cf34bb664fa0044863d_pinecone-fav.webp" },
+//   { name: "TensorFlow", url: "https://editor.analyticsvidhya.com/uploads/22024tf.png" },
+
+//   // Row 5 (LLMs)
+//   { name: "Langchain", url: "https://irislogic.com/wp-content/uploads/2024/04/Digital-Transformation-1.png" },
+//   { name: "OpenAI", url: "https://static.vecteezy.com/system/resources/previews/022/227/365/original/openai-chatgpt-logo-icon-free-png.png" },
+//   { name: "Gemini", url: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-gemini-icon.png" },
+
+//   // Row 6 (Languages)
+//   { name: "C", url: "https://mscit.mkcl.org/user/pages/03.mscit-for-school-students/03.course-syllabus/MS-CIT-SS-C-Programming.png" },
+//   { name: "Java", url: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" },
+//   { name: "Python", url: "https://miro.medium.com/v2/resize:fit:1000/0*cOqooDOsnb8jDm2G.png" },
+
+//   // Row 7 (Other)
+//   { name: "Flutter", url: "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" },
+// ];
+
+// const Technologies = () => (
+//   <section className="py-20 bg-white w-full">
+//     <div className="max-w-7xl mx-auto px-4">
+//       {/* Heading line*/}
+//       <div className="flex items-center mb-8">
+//         <h2 className="text-2xl lg:text-4xl font-bold text-[#3A3054] tracking-wide mr-3">
+//           Technologies
+//         </h2>
+//         <div className="flex-grow border-t border-[#E9EAF3]"></div>
+//       </div>
+
+//       {/* Tech icon grid */}
+//       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-5 md:gap-8 justify-items-center">
+//         {techList.map((tech, i) => (
+//           <div
+//             key={tech.name + i}
+//             className="flex flex-col items-center bg-white rounded-2xl shadow-md border border-[#F0F1F5] p-4 hover:shadow-xl hover:border-[#7B4DFE]/60 transition-all duration-150 group"
+//           >
+//             <img
+//               src={tech.url}
+//               alt={tech.name}
+//               className="w-14 h-14 lg:w-20 lg:h-20 object-contain mb-2 group-hover:scale-110 transition"
+//               loading="lazy"
+//             />
+//             <span className="mt-1 text-xs md:text-sm font-semibold text-[#767191] group-hover:text-[#7B4DFE] transition">
+//               {tech.name}
+//             </span>
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   </section>
+// );
+
+// export default Technologies;
 
 
+import React from 'react';
 
-        </div>
+const accent = "#3B82F6"; // theme blue
 
-        <div className='flex justify-center align-middle items-center flex-wrap'>
-            <div className='flex justify-evenly w-full'>
-                <img src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://external-preview.redd.it/n9EWl-GXdiaYYVOhB3Dy1hT69l0v8KfPnDVeqDQ6ANE.jpg?auto=webp&s=f0a553bd5925bada0c42a4af98c09e9e4acbc22b" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-            </div>
+const techList = [
+  { name: "React.js", url: "https://dabeng.github.io/img/reactjs.png" },
+  { name: "Next.js", url: "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png" },
+  { name: "Tailwind CSS", url: "https://codekitapp.com/images/help/free-tailwind-icon@2x.png" },
+  { name: "Node.js", url: "https://www.svgrepo.com/show/354119/nodejs-icon.svg" },
+  { name: "Flask", url: "https://external-preview.redd.it/n9EWl-GXdiaYYVOhB3Dy1hT69l0v8KfPnDVeqDQ6ANE.jpg?auto=webp&s=f0a553bd5925bada0c42a4af98c09e9e4acbc22b" },
+  { name: "Express.js", url: "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png" },
+  { name: "MongoDB", url: "https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" },
+  { name: "Firebase", url: "https://miro.medium.com/v2/resize:fit:300/1*R4c8lHBHuH5qyqOtZb3h-w.png" },
+  { name: "PostgreSQL", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1163px-Postgresql_elephant.svg.png" },
+  { name: "ChromaDB", url: "https://miro.medium.com/v2/resize:fit:793/1*2crwn9fsu58hVQua-dEa3w.png" },
+  { name: "Pinecone", url: "https://cdn.prod.website-files.com/63daf1fa1abcbc5e7969d7c9/641e0cf34bb664fa0044863d_pinecone-fav.webp" },
+  { name: "TensorFlow", url: "https://editor.analyticsvidhya.com/uploads/22024tf.png" },
+  { name: "Langchain", url: "https://irislogic.com/wp-content/uploads/2024/04/Digital-Transformation-1.png" },
+  { name: "OpenAI", url: "https://static.vecteezy.com/system/resources/previews/022/227/365/original/openai-chatgpt-logo-icon-free-png.png" },
+  { name: "Gemini", url: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-gemini-icon.png" },
+  { name: "C", url: "https://mscit.mkcl.org/user/pages/03.mscit-for-school-students/03.course-syllabus/MS-CIT-SS-C-Programming.png" },
+  { name: "Java", url: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" },
+  { name: "Python", url: "https://miro.medium.com/v2/resize:fit:1000/0*cOqooDOsnb8jDm2G.png" },
+  { name: "Flutter", url: "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" },
+];
 
-            <div className='flex justify-evenly w-full'>
-                <img src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://miro.medium.com/v2/resize:fit:300/1*R4c8lHBHuH5qyqOtZb3h-w.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://static-00.iconduck.com/assets.00/postgresql-icon-2048x2026-2lkx6hk5.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-            </div>
-        </div>
+const Technologies = () => (
+  <section className="py-20 bg-white w-full">
+    <div className="max-w-7xl mx-auto px-4">
+      {/* Heading line*/}
+      <div className="flex items-center mb-8">
+        <h2 className="text-2xl lg:text-4xl font-bold text-[#21242B] tracking-wide mr-3">
+          Technologies
+        </h2>
+        <div className="flex-grow border-t border-[#e8ecf7]"></div>
+      </div>
 
-        {/* <div className='flex justify-center align-middle items-center flex-wrap'>
-            <div className='flex justify-evenly w-full'>
-                <img src="https://static-00.iconduck.com/assets.00/tensorflow-icon-955x1024-hd4xzbqj.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://jeancochrane.com/static/images/blog/pytorch-functional-api/pytorch-logo.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://raw.githubusercontent.com/github/explore/cf9a84017e3cdd93aeb635d9b85379ba67d62031/topics/keras/keras.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-            </div>
-
-            <div className='flex justify-evenly w-full'>
-                <img src="https://pypi-camo.freetls.fastly.net/b86b2758380b6bc7cbdf4ff97fda9826a3b74aa2/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f7363696b69742d6c6561726e2f7363696b69742d6c6561726e2f6d61696e2f646f632f6c6f676f732f7363696b69742d6c6561726e2d6c6f676f2e706e67" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://irislogic.com/wp-content/uploads/2024/04/Digital-Transformation-1.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://static-00.iconduck.com/assets.00/neo4j-icon-452x512-b63ajo4a.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-            </div>
-        </div> */}
-
-        <div className='flex justify-center align-middle items-center flex-wrap'>
-            <div className='flex justify-evenly w-full '>
-                <img src="https://miro.medium.com/v2/resize:fit:793/1*2crwn9fsu58hVQua-dEa3w.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://cdn.prod.website-files.com/63daf1fa1abcbc5e7969d7c9/641e0cf34bb664fa0044863d_pinecone-fav.webp" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://static-00.iconduck.com/assets.00/tensorflow-icon-955x1024-hd4xzbqj.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-            </div>
-
-            <div className='flex justify-evenly w-full'>
-                <img src="https://irislogic.com/wp-content/uploads/2024/04/Digital-Transformation-1.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://static.vecteezy.com/system/resources/previews/022/227/365/original/openai-chatgpt-logo-icon-free-png.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-gemini-icon.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-            </div>
-        </div>
-
-        <div className='flex justify-center align-middle items-center flex-wrap'>
-            <div className='flex justify-evenly w-full '>
-                <img src="https://mscit.mkcl.org/user/pages/03.mscit-for-school-students/03.course-syllabus/MS-CIT-SS-C-Programming.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-                <img src="https://miro.medium.com/v2/resize:fit:1000/0*cOqooDOsnb8jDm2G.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-            </div>
-
-            <div className='flex justify-evenly w-full'>
-                <img src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" alt="HTML" className='lg:h-20 lg:w-20 m-3 h-16 w-16'/>
-            </div>
-        </div>
-        
+      {/* Tech icon grid */}
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-5 md:gap-8 justify-items-center">
+        {techList.map((tech, i) => (
+          <div
+            key={tech.name + i}
+            className="flex flex-col items-center bg-white rounded-2xl shadow-md border border-[#e8ecf7] p-4 hover:shadow-xl hover:border-[#3B82F6] transition-all duration-150 group"
+          >
+            <img
+              src={tech.url}
+              alt={tech.name}
+              className="w-14 h-14 lg:w-20 lg:h-20 object-contain mb-2 group-hover:scale-110 transition"
+              loading="lazy"
+            />
+            <span className="mt-1 text-xs md:text-sm font-semibold text-[#6c7583] group-hover:text-[#3B82F6] transition">
+              {tech.name}
+            </span>
+          </div>
+        ))}
+      </div>
     </div>
-  )
-}
+  </section>
+);
 
-export default Technologies
+export default Technologies;

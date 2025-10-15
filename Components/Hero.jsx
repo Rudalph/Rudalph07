@@ -1,73 +1,174 @@
-"use client"
-import React,{ useRef, useEffect } from 'react'
-import Image from 'next/image'
-import Typed from 'typed.js';
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { IoMdMail } from "react-icons/io";
+// 'use client'
+// import React, { useRef, useEffect } from 'react'
+// import Image from 'next/image'
+// import Typed from 'typed.js'
+// import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
+// import { IoMdMail } from "react-icons/io"
 
+// // Accent gradient for name and typing
+// const accent = 'bg-gradient-to-r from-[#7B4DFE] via-[#FC538D] to-[#5B8EF2] bg-clip-text text-transparent'
+
+// export default function Hero() {
+//   const typingRef = useRef(null)
+
+//   useEffect(() => {
+//     const options = {
+//       strings: [
+//         'FULL STACK WEB DEVELOPER',
+//         'FULL STACK APP DEVELOPER',
+//         'AI DEVELOPER',
+//         'ML DEVELOPER'
+//       ],
+//       typeSpeed: 50,
+//       backSpeed: 50,
+//       backDelay: 3000,
+//       loop: true,
+//       showCursor: true,
+//       cursorChar: '|'
+//     }
+//     const typingInstance = new Typed(typingRef.current, options)
+//     return () => typingInstance.destroy()
+//   }, [])
+
+//   return (
+//     <section className="relative w-full min-h-[80vh] flex flex-col justify-center items-center bg-white pt-16">
+//       <div className="mx-auto max-w-9xl grid lg:grid-cols-12 gap-x-8 px-4 lg:px-8 items-center">
+//         <div className="lg:col-span-7 xl:col-span-6 flex flex-col gap-y-6 md:py-20 z-10">
+//           {/* Tagline Badge */}
+//           <div className="rounded-full bg-[#BAC8E2]/25 px-4 py-1 font-medium text-xs tracking-widest uppercase w-max text-[#705CF6] border border-[#7B4DFE]/20 shadow backdrop-blur">
+//             Software Developer  |  AI/ML Enthusiast  |  Blockchain Innovator  
+//           </div>
+//           {/* Name with Gradient */}
+//           <h1 className={`text-3xl md:text-5xl lg:text-6xl font-extrabold tracking-tight ${accent} select-none drop-shadow-sm`}>
+//             RUDALPH GONSALVES
+//           </h1>
+//           {/* Typing Text */}
+//           <p className="mt-4 text-base md:text-xl lg:text-2xl font-bold tracking-wide flex items-center gap-2 text-[#3A3054]">
+//             I AM <span className={`pl-2 ${accent} font-extrabold`} ref={typingRef} />
+//           </p>
+//           {/* Socials + CTA */}
+//           <div className='mt-6 flex flex-wrap items-center gap-x-7 gap-y-4'>
+//             <a href="https://github.com/Rudalph" target="_blank" className="group">
+//               <FaGithub size={32} className="text-[#757585] group-hover:text-[#7B4DFE] transition" />
+//             </a>
+//             <a href="https://www.linkedin.com/in/rudalphgonsalves/" target="_blank" className="group">
+//               <FaLinkedin size={32} className="text-[#757585] group-hover:text-[#0A66C2] transition" />
+//             </a>
+//             <a href="https://www.instagram.com/rudalphgonsalves/" target="_blank" className="group">
+//               <FaInstagram size={32} className="text-[#757585] group-hover:text-[#FC538D] transition"/>
+//             </a>
+//             <a href="mailto:gonsalvesrudalph@gmail.com" className="group">
+//               <IoMdMail size={32} className="text-[#757585] group-hover:text-[#7B4DFE] transition" />
+//             </a>
+//             <a href="mailto:gonsalvesrudalph@gmail.com" className="ml-5">
+//               <button className="px-6 py-2 rounded-full bg-gradient-to-r from-[#7B4DFE] to-[#FC538D] text-white font-semibold shadow-md hover:scale-105 transition">
+//                 Let's Connect
+//               </button>
+//             </a>
+//           </div>
+//         </div>
+//         <div className="lg:col-span-5 xl:col-span-6 flex justify-center items-center my-12 lg:my-0 relative">
+//           {/* Profile photo with soft border */}
+//           <div className="relative group">
+//             <Image
+//               className="rounded-full border-4 border-[#E9EAF3]/70 shadow-xl transition-transform duration-500 group-hover:scale-105"
+//               src='/Rudalph-Image.jpg'
+//               alt="Rudalph Gonsalves, developer"
+//               width={350}
+//               height={350}
+//               priority
+//             />
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   )
+// }
+
+'use client'
+import React, { useRef, useEffect } from 'react'
+import Image from 'next/image'
+import Typed from 'typed.js'
+
+// Soft blue for accent (modern SaaS theme)
+// Alternate accent: '#3B82F6' (blue-500) or '#FFB454' (soft orange)
+const primary = '#21242B'         // dark for headings
+const accent = '#3B82F6'          // modern blue, easy on eyes
+const badgeBg = '#F3F7FC'         // very light blue
 
 export default function Hero() {
+  const typingRef = useRef(null)
 
-    const typingRef = useRef(null);
-
-    useEffect(() => {
-        const options = {
-            strings: [
-                'FULL STACK WEB DEVELOPER',
-                'FULL STACK APP DEVELOPER',
-                'AI DEVELOPER',
-                'ML DEVELOPER'
-            ],
-            typeSpeed:50,
-            backSpeed: 50,
-            backDelay: 3000,
-            loop: true,
-            showCursor: true,
-        };
-
-        const typingInstance = new Typed(typingRef.current, options);
-
-        return () => {
-            typingInstance.destroy();
-        };
-    }, []);
-
+  useEffect(() => {
+    const options = {
+      strings: [
+        'FULL STACK WEB DEVELOPER',
+        'FULL STACK APP DEVELOPER',
+        'AI DEVELOPER',
+        'ML DEVELOPER'
+      ],
+      typeSpeed: 50,
+      backSpeed: 50,
+      backDelay: 3000,
+      loop: true,
+      showCursor: true,
+      cursorChar: '|'
+    }
+    const typingInstance = new Typed(typingRef.current, options)
+    return () => typingInstance.destroy()
+  }, [])
 
   return (
-    <div className="relative w-full lg:mt-10">
-      <div className="mx-auto max-w-8xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
-        <div className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6">
-          <div className="lg:mt-8 flex max-w-max items-center space-x-2 rounded-full bg-[#A8B3CF] p-1">
-            <div className="rounded-full bg-white p-1 px-2">
-              <p className="text-sm font-medium">CREATIVE TECHSCAPES</p>
-            </div>
-            <p className="text-sm font-bold p-1"><a href="https://creative-techscapes.vercel.app/">&rarr;</a></p>
+    <section className="relative w-full min-h-[76vh] flex flex-col justify-center items-center bg-white pt-16">
+      <div className="mx-auto max-w-7xl grid lg:grid-cols-12 gap-x-8 px-4 md:px-8 items-center">
+        {/* Text & CTA */}
+        <div className="lg:col-span-7 xl:col-span-6 flex flex-col gap-y-7 md:py-16 z-10">
+          {/* Soft-accent badge */}
+          <div
+            className="rounded-full px-4 py-1 font-medium text-xs tracking-widest uppercase w-max text-[#20418A]" // dark blue
+            style={{ background: badgeBg, border: `1px solid ${accent}` }}
+          >
+            Software Developer &nbsp;|&nbsp; AI/ML Enthusiast &nbsp;|&nbsp; Blockchain Innovator
           </div>
-          <h1 className="mt-8 text-2xl font-bold tracking-tight text-[#FC538D] md:text-4xl lg:text-5xl">
-            RUDALPH  GONSALVES
+          {/* Name, one line, big impact */}
+          <h1
+            className="text-3xl md:text-5xl lg:text-5xl font-extrabold tracking-tight"
+            style={{ color: primary, letterSpacing: '-2px', lineHeight: 1.13 }}
+          >
+            RUDALPH GONSALVES
           </h1>
-          <p className="mt-8 text-sm text-[#7147ED] font-bold lg:text-2xl">
-              I AM <span ref={typingRef} />
+          {/* Typing Effect */}
+          <p className="mt-2 text-base md:text-xl lg:text-2xl font-semibold tracking-wide flex items-center gap-2" style={{ color: primary }}>
+            I AM
+            <span
+              ref={typingRef}
+              className="pl-2 font-extrabold"
+              style={{ color: accent, textShadow: "0 1px 8px #e5e8ee" }}
+            />
           </p>
-          <div className='flex justify-items-start flex-wrap mt-8 lg:space-x-10 space-x-5 text-[#A8B3CF] text-2xl lg:text-4xl'>
-          <a href="https://github.com/Rudalph"><FaGithub /></a>
-          <a href="https://www.linkedin.com/in/rudalphgonsalves/"><FaLinkedin /></a>
-          <a href="https://www.instagram.com/rudalphgonsalves/"><FaInstagram /></a>
-          <a href="mailto:gonsalvesrudalph@gmail.com"><IoMdMail /></a>
-          </div>
+          <a href="mailto:gonsalvesrudalph@gmail.com" className="mt-7 w-max">
+  <button
+    className="px-7 py-2.5 rounded-full bg-[#20418A] text-white font-semibold shadow hover:bg-[#16326A] hover:scale-105 transition-all text-base md:text-lg"
+  >
+    Connect With Me
+  </button>
+</a>
+
         </div>
-        <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6 flex justify-center items-center align-middle p-5">
-          <Image
-            className="aspect-[1/1] lg:aspect-[4/3] lg:h-[500px] xl:aspect-[16/9] rounded-full"
-            src='/Rudalph-Image.jpg'
-            alt=""
-            height={100}
-            width={500}
-          />
+        {/* Profile Image */}
+        <div className="lg:col-span-5 xl:col-span-6 flex justify-center items-center my-12 lg:my-0 relative">
+          <div className="relative group">
+            <Image
+              className="rounded-full border-4 border-[#e8ecf7] shadow-xl bg-[#F3F7FC]"
+              src='/Rudalph-Image.jpg'
+              alt="Rudalph Gonsalves, developer"
+              width={340}
+              height={340}
+              priority
+            />
+          </div>
         </div>
       </div>
-    </div>
-  )
+    </section>
+  );
 }
