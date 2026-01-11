@@ -12,7 +12,10 @@ const achievements = [
   { src: '/achivements-img-7.jpg', alt: 'Achievement 6', desc: 'Cybercrime Awareness Seminar I' },
   { src: '/achivements-img-8.jpg', alt: 'Achievement 7', desc: 'Cybercrime Awareness Seminar II' },
   { src: '/achivements-img-10.jpg', alt: 'Achievement 8', desc: 'Published Research Paper at IEEE Conference' },
-  { src: '/achivements-img-9.jpg', alt: 'Achievement 9', desc: 'Avishkar - State Level Project Demonstration' }
+  { src: '/achivements-img-9.jpg', alt: 'Achievement 9', desc: 'Avishkar - State Level Project Demonstration' },
+  { src: '/achivements-img-11.jpg', alt: 'Achievement 11', desc: 'Best Innovative Project Award — IIC-FrCRCE' },
+  { src: '/achivements-img-12.jpg', alt: 'Achievement 12', desc: 'Winner — Prakalp 2025' },
+  { src: '/achivements-img-13.jpg', alt: 'Achievement 12', desc: 'Pre-Incubation for Startup' }
 ];
 
 const Bento = () => {
