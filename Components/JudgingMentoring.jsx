@@ -7,7 +7,7 @@ const accent = '#3B82F6';
 
 // Certificate paths (place actual PDFs in public/certificates/)
 const certificateUrls = {
-  judging: '/certificates/sih-judging-2025.pdf',
+  judging: '/judgingmentoring/Judge_SIH_2025.pdf',
   mentoringBitNBuild2025: '/judgingmentoring/mentor_bnb_2025.pdf',
   mentoringBitNBuild2024: '/judgingmentoring/mentor_bnb_2024.pdf',
   vpnipsletter: '/judgingmentoring/vpn_ips_letter.pdf'
