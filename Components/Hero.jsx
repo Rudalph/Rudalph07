@@ -64,7 +64,7 @@ export default function Hero() {
               }}
             />
           </p>
-          <a href="mailto:gonsalvesrudalph@gmail.com" className="mt-4 w-full max-w-xs">
+          <a href="mailto:rudalphgonsalves2003@gmail.com" className="mt-4 w-full max-w-xs">
             <button
               className="w-full px-5 py-2.5 rounded-full bg-[#20418A] text-white font-semibold shadow hover:bg-[#3B82F6] hover:scale-[1.03] transition-all text-sm sm:text-base md:text-lg"
             >

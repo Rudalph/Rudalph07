@@ -150,9 +150,9 @@ const experiences = [
     location: 'Mumbai, India',
     icon: companyIcons['Future Logic Systems Pvt. Ltd.'],
     bullets: [
-      'Built scalable blockchain application using MERN stack, Ethereum, and IPFS.',
-      'Collaborated in a 5-member team and successfully demoed MVP to stakeholders.',
-      'Enabled 1,000+ document verifications across 5+ companies.',
+      'Developed a blockchain-based full-stack app using MERN, Ethereum, and IPFS and deployed on Vercel.',
+      'Delivered an MVP in a 5-member team and collaborated with stakeholders for technical validation.',
+      'Used by 5+ enterprises to authenticate 1,000+ products. Developed and Containerized microservices.',
     ],
   },
   {
@@ -162,9 +162,9 @@ const experiences = [
     location: 'Mumbai, India',
     icon: companyIcons['Arcon Techsolutions Pvt. Ltd.'],
     bullets: [
-      'Developed 150+ Java Playwright automation scripts for internal applications.',
-      'Presented automation framework to QA team achieving 70%+ test coverage.',
-      'Reduced manual testing effort by 40–50% through automation.',
+      'Developed 150+ Playwright automation scripts for frontend, backend, API, and end-to-end testing',
+      'Achieved 70%+ test coverage and collaborated with QA teams to improve software reliability.',
+      'Reduced manual testing effort by 40–50% through scalable automation and debugging practices.',
     ],
   },
   {
@@ -174,9 +174,9 @@ const experiences = [
     location: 'Mumbai, India',
     icon: companyIcons['VPN Digital Services Pvt. Ltd.'],
     bullets: [
-      'Developed MERN stack web application for cybercrime investigation workflow.',
-      'Assisted in deployment and maintenance of scalable codebase.',
-      'Presented MVP to stakeholders and delivered project on schedule.',
+      'Developed a scalable MERN-based full-stack web application to support cybercrime investigation.',
+      'Deployed on AWS and contributed to CI/CD pipeline for scalable and maintainable code delivery',
+      'Presented the MVP to stakeholders, collaborated within a cross-functional team of 10+ members.',
     ],
   },
   {
@@ -186,9 +186,9 @@ const experiences = [
     location: 'Mumbai, India',
     icon: companyIcons['Fire and Security Association of India'],
     bullets: [
-      'Built application to digitalize safety audits, mandal registration, and scoring.',
-      'Implemented authentication, role-based access control, geo-tagging, and image uploads.',
-      'Enabled real-time safety data access for faster response by Mumbai Police.',
+      'Built an app for FSAI Mumbai to enhance Ganesh Chaturthi safety audits, covering 100+ mandals.',
+      'Digitalized registration and scoring with geo-tagging and image capture, improving efficiency by 60%.',
+      'Implemented REST API using Flask, deployed on Render and contributed to CI/CD pipeline.',
     ],
   },
 ];

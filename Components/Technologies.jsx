@@ -126,7 +126,7 @@ const techCategories = [
       { name: "OpenAI", url: "https://static.vecteezy.com/system/resources/previews/022/227/364/non_2x/openai-chatgpt-logo-icon-free-png.png" },
       { name: "Gemini", url: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-gemini-icon.png" },
       { name: "Llama", url: "https://unpkg.com/@lobehub/icons-static-png@latest/dark/meta-color.png" },
-      { name: "LangChain", url: "https://hackceleration.com/wp-content/uploads/2026/03/langchain-color-4.png" },
+      { name: "LangChain", url: "https://images.seeklogo.com/logo-png/61/1/langchain-icon-white-logo-png_seeklogo-611656.png" },
       { name: "Model Context Protocol", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Model_Context_Protocol_logo.svg/3840px-Model_Context_Protocol_logo.svg.png" },
       { name: "Agent-to-Agent Protocol", url: "https://a2a-protocol.org/latest/assets/a2a-logo-black.svg" },
       { name: "TensorFlow", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/960px-Tensorflow_logo.svg.png" },
